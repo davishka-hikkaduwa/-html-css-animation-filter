@@ -128,8 +128,23 @@
 
 
 /* Esercizio 10 */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
 .ex-10-icon {
     font-size: 60px;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
 }
 
 /* /Esercizio 10 */
