@@ -128,7 +128,7 @@
 
 
 /* Esercizio 10 */
-@keyframes rotate {
+@keyframes icon-10-rotation {
     0% {
         transform: rotate(0deg)
     }
@@ -140,7 +140,7 @@
 
 .ex-10-icon {
     font-size: 60px;
-    animation-name: rotate;
+    animation-name: icon-10-rotation;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -149,10 +149,36 @@
 
 /* /Esercizio 10 */
 
+
+/* Esercizio 11 */
+@keyframes icon-11-rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    90% {
+        transform: rotate(-270deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
 
+.ex-11-icon:hover {
+    animation-name: icon-11-rotation;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+
+}
+
+/* /Esercizio 11 */
+
+/* Esercizio 12 */
 .ex-12-button,
 .ex-13-button {
     position: relative;
